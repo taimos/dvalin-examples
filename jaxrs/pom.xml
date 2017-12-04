@@ -114,7 +114,7 @@
                         <image>
                             <name>dvalin-example-jaxrs:${project.version}</name>
                             <build>
-                                <from>java:8-alpine</from>
+                                <from>openjdk:8-jdk-alpine</from>
                                 <maintainer>${project.organization.name}</maintainer>
                                 <tags>
                                     <tag>latest</tag>
