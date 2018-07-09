@@ -19,7 +19,8 @@
   -->
 <ivo xmlns="http://www.taimos.de/xsd/IVODef/1.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
      xsi:schemaLocation="http://www.taimos.de/xsd/IVODef/1.0.0 IVODef-v1_0_0.xsd" author="thoeger" comment="test ivo"
-     name="User" pkgName="de.taimos.dvalin.interconnect.demo.model" version="1">
+     name="User" pkgName="de.taimos.dvalin.interconnect.demo.model" version="1" generateCreate="true"
+     generateDelete="true" generateFindById="true" generateUpdate="true" generateFilter="true" identity="true">
 
     <string comment="the name of the user" name="name" filterable="multi" required="true" useAsLabel="true"/>
     <string comment="the city of the user" name="city" filterable="single" required="true" useAsLabel="true"/>
