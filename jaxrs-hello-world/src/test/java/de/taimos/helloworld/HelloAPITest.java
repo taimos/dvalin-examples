@@ -15,7 +15,14 @@ public class HelloAPITest extends APITest {
     public void shouldSayHello() {
         HTTPResponse httpResponse = this.request("/hello").accept("text/plain").get();
         this.assertOK(httpResponse);
-        Assert.assertEquals("Hello, world!", httpResponse.getResponseAsString());
+        Assert.assertEquals("Hello, you!", httpResponse.getResponseAsString());
     }
     
+    @Test
+    public void shouldSayHelloWorld() {
+        HTTPResponse httpResponse = this.request("/hello/world").accept("text/plain").get();
+        this.assertOK(httpResponse);
+        Assert.assertEquals("Hello, world!", httpResponse.getResponseAsString());
+    }
+
 }

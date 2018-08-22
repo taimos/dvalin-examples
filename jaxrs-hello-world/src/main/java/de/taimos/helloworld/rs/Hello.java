@@ -7,7 +7,12 @@ public class Hello implements IHello {
     
     @Override
     public String sayHello() {
+        return "Hello, you!";
+    }
+
+    @Override
+    public String sayHelloWorld() {
         return "Hello, world!";
     }
-    
+
 }

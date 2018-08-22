@@ -18,7 +18,12 @@ public class HelloTest {
     
     @Test
     public void shouldSayHello() {
-        Assert.assertEquals("Hello, world!", this.hello.sayHello());
+        Assert.assertEquals("Hello, you!", this.hello.sayHello());
     }
     
+    @Test
+    public void shouldSayHelloWorld() {
+        Assert.assertEquals("Hello, world!", this.hello.sayHelloWorld());
+    }
+
 }
