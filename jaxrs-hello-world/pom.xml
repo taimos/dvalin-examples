@@ -15,7 +15,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <serviceName>helloworld</serviceName>
         <mainClass>de.taimos.helloworld.ServerStarter</mainClass>
-        <dvalin.version>1.28</dvalin.version>
+        <dvalin.version>1.29</dvalin.version>
     </properties>
     <prerequisites>
         <maven>3.0.0</maven>
